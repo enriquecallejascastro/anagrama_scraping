@@ -13,9 +13,3 @@ de la editorial Anagrama y de Amazon y generar un *dataset*.
 - Germán del Cacho Salvador
 
 - Enrique Callejas Castro
-
-### Ficheros
-
-- 
-
-### Recursos
