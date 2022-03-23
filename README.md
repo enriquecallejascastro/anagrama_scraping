@@ -24,12 +24,12 @@ donde se explican las líneas generales del proyecto y se contextualiza el traba
 Se ejecutan en orden los siguientes *notebooks*.
 
 - 01_scraper_anagrama.ipynb: realiza el *scraping* de la página web de Anagrama y genera un .csv 
-intermedio con los datos básicos de los libros.
+intermedio (dataset.csv) con los datos básicos de los libros.
 
-- 02_scraper_ean_amazon.ipynb: realiza el *scraping* de Amazon y fusiona los datos con el dataset 
-anterior.
+- 02_scraper_amazon.ipynb: realiza el *scraping* de Amazon y fusiona los datos con el *dataset* 
+anterior, creando el *dataset* final: *coleccion_anagrama.csv*.
 
-- 03_coleccion_anagrama_analysis.ipynb: analiza los datos del *dataset* final.
+- 03_analysis_coleccion_anagrama.ipynb: analiza los datos del *dataset* final.
 
 ### Contacto
 
