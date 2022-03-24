@@ -11,7 +11,7 @@ de la editorial Anagrama y de Amazon y generar un *dataset*.
 
 ### Miembros del equipo de trabajo
 
-- Germán del Cacho Salvador
+- Germán del Cacho Salvador_
 
 - Enrique Callejas Castro
 
@@ -42,5 +42,4 @@ ejecutar y probar en unos pocos segundos si se establece una *n* pequeña (e.g.,
 gdelcacho@uoc.edu
 
 ecallejascastro@uoc.edu
-
 
