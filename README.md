@@ -11,7 +11,7 @@ de la editorial Anagrama y de Amazon y generar un *dataset*.
 
 ### Miembros del equipo de trabajo
 
-- Germán del Cacho Salvador_
+- Germán del Cacho Salvador
 
 - Enrique Callejas Castro
 
