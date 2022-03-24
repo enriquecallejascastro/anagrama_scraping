@@ -23,13 +23,19 @@ donde se explican las líneas generales del proyecto y se contextualiza el traba
 
 Se ejecutan en orden los siguientes *notebooks*.
 
-- 01_scraper_anagrama.ipynb: realiza el *scraping* de la página web de Anagrama y genera un .csv 
+- **01_scraper_anagrama.ipynb**: realiza el *scraping* de la página web de Anagrama y genera un .csv 
 intermedio (*dataset.csv*) con los datos básicos de los libros (tiempo aproximado de ejecución: 50 minutos).
 
-- 02_scraper_amazon.ipynb: realiza el *scraping* de Amazon y fusiona los datos con el *dataset* 
+- **02_scraper_amazon.ipynb**: realiza el *scraping* de Amazon y fusiona los datos con el *dataset* 
 anterior, creando el *dataset* final: *coleccion_anagrama.csv* (tiempo aproximado de ejecución: 10 horas).
 
-- 03_analysis_coleccion_anagrama.ipynb: analiza los datos del *dataset* final (tiempo aproximado de ejecución: 10 segundos).
+- **03_analysis_coleccion_anagrama.ipynb**: analiza los datos del *dataset* final (tiempo aproximado de ejecución: 10 segundos).
+
+Bonus:
+Dado la gran cantidad de tiempo que requiere la ejecución de los *notebooks* anteriores, se ha desarrollado un
+*notebook* extra: **04_scraper_lite**, que contiene las funciones de scraping de los notebooks 01_scraper_anagrama.ipynb y 
+02_scraper_amazon.ipynb, pero que realiza el *scraping* sobre una cantidad limitada de libros, con el objetivo de que se pueda
+ejecutar y probar en unos pocos segundos si se establece una *n* pequeña (e.g., n_books=3).
 
 ### Contacto
 
